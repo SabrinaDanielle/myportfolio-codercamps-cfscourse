@@ -1,0 +1,161 @@
+/*Style Applied to entire page*/
+body{
+    background-image: url("https://172wyq.dm2302.livefilestore.com/y4m06Q2AygolDpCPFCDMXU9yo_Hq4sPzAOCKIowehKV8swleCBXeJHc7zmhYiFrXNjenSFlnd4mpM_cD19EwXFbwTzFXhsx_pc5ykx3v2FQWyV0nGcXfLSEet_IpRlUgfQ6sRdbw8aCYogSITlBxun40OVHgPMJz2rWTt4-knSVUpEjrELNMP90r6Zqb1DEXubbg5VBqijG-_6X8XApceeQKA?width=6016&height=4016&cropmode=none");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    font-family: 'Viga', sans-serif;
+    
+}
+body h1{
+    font-family: 'Merriweather', serif;
+}
+body h2{
+   font-family: 'Merriweather', serif;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    background-image: url("https://2b2wyq.dm2302.livefilestore.com/y4mrln7mhikXLSCVmL3_c8ynCq4uG2dUKk37XI61AnGC7r4-COSFaRRk1_rzvDEkwg5xMaZpJpSbwjitsRwQ3Af1O_pY1LXiudDYiXEjR8DxBFQZn9LJ4xabQJAlouu1ibgrutSYFVwL-fhxI9uS1MhiyhxerrRVhKAfGjHTI7o3S9hAxy-ej2tUBFc5AivlHWJOkv9tY0G-cRWA4UFBGWTeA?width=550&height=250&cropmode=none");
+}
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    margin: auto;
+    float: right;
+}
+nav ul :hover{
+    background-color: red;
+    background-image: none;
+    margin-left: 20px;
+}
+img {
+    border-radius: 10px;
+}
+.me{
+    background-image: url("https://2b2wyq.dm2302.livefilestore.com/y4mrln7mhikXLSCVmL3_c8ynCq4uG2dUKk37XI61AnGC7r4-COSFaRRk1_rzvDEkwg5xMaZpJpSbwjitsRwQ3Af1O_pY1LXiudDYiXEjR8DxBFQZn9LJ4xabQJAlouu1ibgrutSYFVwL-fhxI9uS1MhiyhxerrRVhKAfGjHTI7o3S9hAxy-ej2tUBFc5AivlHWJOkv9tY0G-cRWA4UFBGWTeA?width=550&height=250&cropmode=none");
+    margin-bottom: 50px;
+   
+}
+a:link {
+    color: black;
+}
+a:hover {
+    color: teal;
+}
+a:visited {
+    color: whitesmoke;
+}
+footer {
+    background-color: whitesmoke;
+    position: fixed;
+    bottom: 0;
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+footer a {
+    margin-right: 4px;
+    background-color: whitesmoke;
+}
+footer :hover{
+    background-color: ghostwhite;
+    margin-bottom: 20px;
+}
+form {
+    width: 25%;
+    background-color: dimgray;
+    text-align: center;
+    margin: auto;
+    border: inset;
+    border-color: teal;
+    border-width: thick;
+    padding: 30px;
+}
+table {
+    background-color: whitesmoke;
+    border: solid;
+    border-width: thin;
+    border-bottom-color: teal;
+    border-right-color: black;
+    border-left-color: black;
+    border-top-color: black;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+}
+table td a :hover {
+    background-color: ghostwhite;
+    background-image: none;
+    margin-bottom: 20px;
+   
+}
+#mailto {
+    background-color: whitesmoke;
+    border: solid;
+    border-width: thin;
+    border-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+#port{
+    text-align: left;
+    color:black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+button{
+    color: whitesmoke;
+    background-color: black;
+    position: fixed;
+    margin-top: 90px;
+}
+button:hover{
+    color: whitesmoke;
+    background-color: teal;
+}
+
+#stats p {
+    display: inline;
+    margin: 5px;
+    }
+li ul li {
+    list-style: none;
+    
+}
+#abconhead {
+    background-color: black;
+    border-radius: 10px;
+    margin-top:80px;
+}
+#input{
+background-color: black;
+border-style: inset;
+border: medium;
+color: whitesmoke;
+border-right-style: outset;
+border-radius: 10px;
+
+}
+#wordcount{color: teal;}
+#sentence{color: teal;}
+#avgword{color: teal;}
+#space{color: teal;}
+    
